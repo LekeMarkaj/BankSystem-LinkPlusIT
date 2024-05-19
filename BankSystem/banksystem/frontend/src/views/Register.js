@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import {connect} from 'react-redux';
 import {userRegister} from '../api/authService';
-import {useNavigate} from 'react-router-dom';
+import {Link, useNavigate} from 'react-router-dom';
 import {Alert} from "reactstrap";
 import {authenticate, authFailure, authSuccess} from "../redux/authActions";
 
@@ -116,6 +116,7 @@ function Register({loading,error,...props}){
                     Register
                 </button>
             </form>
+            <Link to={"/login"}>Login</Link>
         </main>
     )
 }

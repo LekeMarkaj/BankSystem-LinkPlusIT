@@ -101,6 +101,8 @@ function Login({loading,error,...props}){
                     Login
                 </button>
             </form>
+            <br/>
+            <Link to={"/register"}>Register</Link>
         </main>
     )
 
