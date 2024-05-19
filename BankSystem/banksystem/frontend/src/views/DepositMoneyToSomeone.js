@@ -104,12 +104,12 @@ function DepositMoneyToSomeone({loading,error,...props}){
                            required/>
                 </label>
                 <br/><br/>
-                <i>Info: Min amount is 10 euros, Max amount is 500 euros.</i>
+                <i>Info: Min amount is 10 $, Max amount is 500 $.</i>
                 <br/><br/>
                 <button type="submit" className="btn btn-primary btn-user btn-block">
                     Deposit money
                 </button>
-            </form> : <i>Deposit was successful :), you deposited {values.depositAmount} Euros.</i>}
+            </form> : <i>Deposit was successful :), you deposited {values.depositAmount} $.</i>}
             <br/>
             <button className="btn btn-info btn-sm"
                     onClick={() => handleClick(bankId)} style={{height: "25px"}}>

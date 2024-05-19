@@ -41,11 +41,11 @@ function AllBankAccounts({loading,error,...props}){
                     <div className="card-body">
                         <br/>
                         <p className="card-text">Bank name: {bankAccount.bankName}</p>
-                        <p className="card-text">Total Transaction Fee Amount: {bankAccount.totalTransactionFeeAmount} Euros</p>
-                        <p className="card-text">Total Transfer Amount: {bankAccount.totalTransferAmount} Euros</p>
+                        <p className="card-text">Total Transaction Fee Amount: {bankAccount.totalTransactionFeeAmount} $</p>
+                        <p className="card-text">Total Transfer Amount: {bankAccount.totalTransferAmount} $</p>
                         {bankAccount.accountList.map((point, i) => (
                             <li key={i}>
-                                Name: {point.name}, Balance: {point.balance} Euro
+                                Name: {point.name}, Balance: {point.balance} $
                             </li>
                         ))}
 

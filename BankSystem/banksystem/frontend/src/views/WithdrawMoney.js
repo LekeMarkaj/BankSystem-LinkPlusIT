@@ -98,12 +98,12 @@ function WithdrawMoney({loading,error,...props}){
                            required/>
                 </label>
                 <br/><br/>
-                <i>Info: Min amount is 10 euros, Max amount is 500 euros.</i>
+                <i>Info: Min amount is 10 $, Max amount is 500 $.</i>
                 <br/><br/>
                 <button type="submit" className="btn btn-primary btn-user btn-block">
                     Withdraw money
                 </button>
-            </form> : <i>Withdrawal was successful :), you withdrew {values.withdrawalAmount} Euros.</i>
+            </form> : <i>Withdrawal was successful :), you withdrew {values.withdrawalAmount} $.</i>
             }
             <br/>
             <button className="btn btn-info btn-sm"

@@ -48,7 +48,7 @@ function Transaction({loading,error,...props}){
                     <div className="card-body">
                         <br/>
                         <p className="card-text">Transaction reason: {trans.transactionReason}</p>
-                        <p className="card-text">Transaction amount: {trans.amount}</p>
+                        <p className="card-text">Transaction amount: {trans.amount} $</p>
                     </div>
                 </div>
             ))}
