@@ -3,6 +3,9 @@ This application is a simple banking system that allows users to create banks an
 
 How to Run the Application
 
+I have done it with spring boot and react js.
+So firstly u should run the intellij and then in the terminal write cd frontend and the after npm start.
+
 There are two roles, one is a user and one is a admin.
 The admin is already added in the database hardcoded, the user should be added with the register form.
 
