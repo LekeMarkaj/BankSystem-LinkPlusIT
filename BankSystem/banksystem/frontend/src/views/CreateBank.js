@@ -11,8 +11,7 @@ function CreateBank({loading,error,...props}){
     const [registerFailure, setRegisterFailure] = useState('');
     const [values, setValues] = useState({
         bankName: '',
-        transactionFlatFeeAmount:0,
-        transactionPercentFeeValue: 0
+        transactionFlatFeeAmount:0
     });
 
     const handleSubmit=(evt)=>{
@@ -78,13 +77,6 @@ function CreateBank({loading,error,...props}){
                     <input type="number" name="transactionFlatFeeAmount" value={values.transactionFlatFeeAmount}
                            onChange={handleChange}
                             required/>
-                </label>
-                <br/>
-                <label>
-                    Transaction Percent Fee Value:
-                    <input type="number" name="transactionPercentFeeValue" value={values.transactionPercentFeeValue}
-                           onChange={handleChange}
-                           required/>
                 </label>
                 <br/>
                 <button type="submit" className="btn btn-primary btn-user btn-block">
