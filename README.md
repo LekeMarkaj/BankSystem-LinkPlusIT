@@ -9,6 +9,8 @@ So firstly u should run the intellij and then in the terminal write cd frontend 
 There are two roles, one is a user and one is a admin.
 The admin is already added in the database hardcoded, the user should be added with the register form.
 
+To log in as an admin the email is markaj.leka@gmail.com and password: 1
+
 The first thing you should do as an admin is create a bank, add its name and fees.
 After that you can see all the bank accounts registered.
 
